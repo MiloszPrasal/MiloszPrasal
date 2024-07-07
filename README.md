@@ -24,11 +24,9 @@ struct ksiazka {
     cout << "Jak duzo ksiazek masz w swojej bibliotece: " << endl;
     cin >> n;
 
-  
-   ksiazka ksiazki[i];
+ ksiazka ksiazki[i];
 
-  
-    for (int i = 0; i < n; ++i) {
+   for (int i = 0; i < n; ++i) {
         cout << "Podaj tytul ksiazki " << i + 1 << ": " << endl;
         cin.ignore();
         cin >> ksiazki[i].tytul;
